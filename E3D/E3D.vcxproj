@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{7D1B9235-DA59-47BF-BCE0-DEA837104628}</ProjectGuid>
+    <ProjectGuid>{B21162B0-D8AF-4D96-AAA5-B5B3D6223F8D}</ProjectGuid>
     <RootNamespace>E3D</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
