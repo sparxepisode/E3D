@@ -149,8 +149,10 @@
   <ItemGroup>
     <ClInclude Include="E3DHead.h" />
     <ClInclude Include="ECommon.h" />
+    <ClInclude Include="EMath.h" />
     <ClInclude Include="EMatrix.h" />
     <ClInclude Include="EUtil.h" />
+    <ClInclude Include="EVector.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

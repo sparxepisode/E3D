@@ -33,6 +33,12 @@
     <ClInclude Include="EUtil.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
