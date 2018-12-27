@@ -149,6 +149,8 @@
   <ItemGroup>
     <ClInclude Include="E3DHead.h" />
     <ClInclude Include="ECommon.h" />
+    <ClInclude Include="EFrustum.h" />
+    <ClInclude Include="ELight.h" />
     <ClInclude Include="EMath.h" />
     <ClInclude Include="EMatrix.h" />
     <ClInclude Include="EUtil.h" />
@@ -157,6 +159,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EFrustum.cpp" />
+    <ClCompile Include="ELight.cpp" />
     <ClCompile Include="EMatrix.cpp" />
     <ClCompile Include="EUtil.cpp" />
     <ClCompile Include="stdafx.cpp">

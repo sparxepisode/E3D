@@ -271,8 +271,8 @@ namespace E3D
 		EFloat z;
 		EFloat w;
 
-		EVector4D() :x(0), y(0), z(0),w(0) {}
-		EVector4D(EFloat x, EFloat y, EFloat z,EFloat w) :x(x), y(y), z(z),w(w) {}
+		EVector4D() :x(0), y(0), z(0),w(1) {}
+		EVector4D(EFloat xf, EFloat yf, EFloat zf,EFloat wf=1) :x(xf), y(yf), z(zf),w(wf) {}
 		EVector4D(const EVector4D& v) :x(v.x), y(v.y), z(v.z),w(v.w) {}
 
 

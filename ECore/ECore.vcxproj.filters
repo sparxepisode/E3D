@@ -39,6 +39,12 @@
     <ClInclude Include="EMath.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ELight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EFrustum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +54,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="EUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ELight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EFrustum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
