@@ -271,9 +271,9 @@ namespace E3D
 		EFloat z;
 		EFloat w;
 
-		EVector4D() :x(0), y(0), z(0),w(1) {}
-		EVector4D(EFloat xf, EFloat yf, EFloat zf,EFloat wf=1) :x(xf), y(yf), z(zf),w(wf) {}
-		EVector4D(const EVector4D& v) :x(v.x), y(v.y), z(v.z),w(v.w) {}
+		EVector4D() :x(0), y(0), z(0), w(1) {}
+		EVector4D(EFloat xf, EFloat yf, EFloat zf, EFloat wf = 1) :x(xf), y(yf), z(zf), w(wf) {}
+		EVector4D(const EVector4D& v) :x(v.x), y(v.y), z(v.z), w(v.w) {}
 
 
 		// 向量点积
@@ -287,7 +287,7 @@ namespace E3D
 		{
 			return EVector4D(y*right.z - z * right.y,
 				z*right.x - x * right.z,
-				x*right.y - y * right.x,1);
+				x*right.y - y * right.x, 1);
 		}
 
 		// 将向量规范化
@@ -300,7 +300,7 @@ namespace E3D
 				x *= invLength;
 				y *= invLength;
 				z *= invLength;
-				w =1;
+				w = 1;
 			}
 			return len;
 		}
@@ -325,9 +325,6 @@ namespace E3D
 			return acos(f);
 		}
 
-
-
-
 		// 返回向量长度
 		inline EFloat length()const
 		{
@@ -343,25 +340,25 @@ namespace E3D
 		// 向量与数的乘法
 		inline EVector4D operator*(float right)const
 		{
-			return EVector4D(x*right, y*right, z*right,1);
+			return EVector4D(x*right, y*right, z*right, 1);
 		}
 
 		// 向量点积
 		inline EVector4D operator*(const EVector4D& right)const
 		{
-			return EVector4D(x*right.x, y *right.y, z*right.z,1);
+			return EVector4D(x*right.x, y *right.y, z*right.z, 1);
 		}
 
 		// 向量加法
 		inline EVector4D operator+(const EVector4D& right)const
 		{
-			return EVector4D(x + right.x, y + right.y, z + right.z,1);
+			return EVector4D(x + right.x, y + right.y, z + right.z, 1);
 		}
 
 		// 向量减法
 		inline EVector4D operator-(const EVector4D& right)const
 		{
-			return EVector4D(x - right.x, y - right.y, z - right.z,1);
+			return EVector4D(x - right.x, y - right.y, z - right.z, 1);
 		}
 
 		// 向量取反
@@ -370,19 +367,10 @@ namespace E3D
 			return EVector4D(-x, -y, -z, w);
 		}
 
-		//// 向量取正
-		//inline EVector4D operator+()
-		//{
-		//	x = +x;
-		//	y = +y;
-		//	z = +z;
-		//	return *this;
-		//}
-
 		// 判断两个向量是不是相等
 		inline bool operator==(const EVector4D& right)const
 		{
-			return EqualFloat(x, right.x) && EqualFloat(y, right.y) && EqualFloat(z, right.z)&& EqualFloat(w,right.w);
+			return EqualFloat(x, right.x) && EqualFloat(y, right.y) && EqualFloat(z, right.z) && EqualFloat(w, right.w);
 		}
 
 		// 向量的赋值

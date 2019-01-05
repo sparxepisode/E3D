@@ -161,6 +161,7 @@
   <ItemGroup>
     <ClCompile Include="EFrustum.cpp" />
     <ClCompile Include="ELight.cpp" />
+    <ClCompile Include="EMath.cpp" />
     <ClCompile Include="EMatrix.cpp" />
     <ClCompile Include="EUtil.cpp" />
     <ClCompile Include="stdafx.cpp">
