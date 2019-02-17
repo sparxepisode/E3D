@@ -45,6 +45,9 @@
     <ClInclude Include="EFrustum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="EGraphics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -63,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="EMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EGraphics.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

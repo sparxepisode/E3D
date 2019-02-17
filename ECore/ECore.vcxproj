@@ -150,6 +150,7 @@
     <ClInclude Include="E3DHead.h" />
     <ClInclude Include="ECommon.h" />
     <ClInclude Include="EFrustum.h" />
+    <ClInclude Include="EGraphics.h" />
     <ClInclude Include="ELight.h" />
     <ClInclude Include="EMath.h" />
     <ClInclude Include="EMatrix.h" />
@@ -160,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EFrustum.cpp" />
+    <ClCompile Include="EGraphics.cpp" />
     <ClCompile Include="ELight.cpp" />
     <ClCompile Include="EMath.cpp" />
     <ClCompile Include="EMatrix.cpp" />
