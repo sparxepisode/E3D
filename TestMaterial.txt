@@ -1,0 +1,21 @@
+
+// 材质名字
+material BallBullet
+{
+	technique
+	{
+		pass
+		{
+			//灯光设计
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.1 0.1 0.1 10 0
+
+			texture_unit
+			{
+				//材质名字
+				texture spheremap.BMP
+			}
+		}
+	}
+}

@@ -152,6 +152,7 @@
     <ClInclude Include="EFrustum.h" />
     <ClInclude Include="EGraphics.h" />
     <ClInclude Include="ELight.h" />
+    <ClInclude Include="EMaterial.h" />
     <ClInclude Include="EMath.h" />
     <ClInclude Include="EMatrix.h" />
     <ClInclude Include="EUtil.h" />
@@ -163,6 +164,7 @@
     <ClCompile Include="EFrustum.cpp" />
     <ClCompile Include="EGraphics.cpp" />
     <ClCompile Include="ELight.cpp" />
+    <ClCompile Include="EMaterial.cpp" />
     <ClCompile Include="EMath.cpp" />
     <ClCompile Include="EMatrix.cpp" />
     <ClCompile Include="EUtil.cpp" />
